@@ -33,15 +33,23 @@ img.centerpos{
 
 .greenButton{
 	color: #FFFFFF;
-  	background-color: #28BF44;
+	background: -webkit-linear-gradient(top, rgb(211, 227, 131) 0%, rgb(190, 214, 79) 22%, rgb(159, 192, 42) 89%, rgb(154, 189, 38) 100%);
+	background: -o-linear-gradient(top, rgb(211, 227, 131) 0%, rgb(190, 214, 79) 22%, rgb(159, 192, 42) 89%, rgb(154, 189, 38) 100%);
+	background: -ms-linear-gradient(top, rgb(211, 227, 131) 0%, rgb(190, 214, 79) 22%, rgb(159, 192, 42) 89%, rgb(154, 189, 38) 100%);
+	background: -moz-linear-gradient(top, rgb(211, 227, 131) 0%, rgb(190, 214, 79) 22%, rgb(159, 192, 42) 89%, rgb(154, 189, 38) 100%);
+	background: linear-gradient(to bottom, rgb(211, 227, 131) 0%, rgb(190, 214, 79) 22%, rgb(159, 192, 42) 89%, rgb(154, 189, 38) 100%);
   	border-color: #7a951f;
   	text-shadow: 1px 1px 1px black;
 }
 
 .greenButton:hover,.greenButton:focus,.greenButton:active{
 	color: #FFFFFF;
-  	background-color: #92E34B;
-  	border-color: #7a951f;
+  	background: -webkit-linear-gradient(top, rgb(162, 231, 154) 0%, rgb(111, 214, 79) 22%, rgb(84, 192, 42) 89%, rgb(20, 195, 25) 100%);
+	background: -o-linear-gradient(top, rgb(162, 231, 154) 0%, rgb(111, 214, 79) 22%, rgb(84, 192, 42) 89%, rgb(20, 195, 25) 100%);
+	background: -ms-linear-gradient(top, rgb(162, 231, 154) 0%, rgb(111, 214, 79) 22%, rgb(84, 192, 42) 89%, rgb(20, 195, 25) 100%);
+	background: -moz-linear-gradient(top, rgb(162, 231, 154) 0%, rgb(111, 214, 79) 22%, rgb(84, 192, 42) 89%, rgb(20, 195, 25) 100%);
+	background: linear-gradient(to bottom, rgb(162, 231, 154) 0%, rgb(111, 214, 79) 22%, rgb(84, 192, 42) 89%, rgb(20, 195, 25) 100%);
+	border-color: #7a951f;
   	text-shadow: 1px 1px 1px black;
 }
 .buttonImage{
