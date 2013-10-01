@@ -17,11 +17,15 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link href="css/bootstrap.css" rel="stylesheet"/>
 		<link href="css/style.css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
 		<div style="width:100%">
 			<img width="100%" src="Image/top.png" alt="Top Border"/>
 		</div>
@@ -45,7 +49,7 @@
 			          </ul>
 					 <ul class="nav navbar-nav navbar-right right-menu-component" >
 			            <li >
-	            	     	 <input type="text" class="search-query span3 form-control search-bar " >
+	            	     	 <input type="text" class="search-query form-control search-bar " >
 						 </li>   
 						 <li class="separator">
 						 	&nbsp;
@@ -61,29 +65,109 @@
 		       </div>
 		     <div>
 		       	<img class="img-responsive" src="Image/banner-white-bg.png" width="100%"/>	
-		       	<div align="center"><h1> Operating system without the hassle.</h1></div>
+		       	<div align="center"><h1> An Operating system without the hassle.</h1></div>
 		       	<div align="center"><h3>All this time you thought those doesn't exist.</h3> </div>
 		     	<div ><img class="centerpos img-responsive buttonImage" src="Image/DownloadButton.png" /></div>	
-		     	<img class="img-responsive" src="Image/elemjs.png" width="100%"/>	
+		     	<!-- <img class="img-responsive" src="Image/curve.png" width="100%"/>	 -->
 		     </div> 
+		     <div style="clear: both;">&nbsp;</div>
+	     	 <div id="shadow-inset-line"> 
+		     	 &nbsp;
+	     	 </div>
+	     	 	<!-- class="line-shadow" -->
+		     <div id="carousel-heading" class="tablet-shape-border grey-inset-border light-grey-gradient-bg">
+		     	<div class="tc-middle-align">elementary is:</div>
+	     	 </div>
 		     <div id="myCarousel" class="carousel slide">
 		   		<ol class="carousel-indicators">
 			        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			        <li data-target="#myCarousel" data-slide-to="1"></li>
 			    </ol>
 			    <div class="carousel-inner">
-		    		<div class="item active">
-				        <img class="centerpos img-responsive" src="Image/Carousel.png"  alt="First slide">
+		    		<div class="item active" >
+		    			<div style="width: 15%;float: left">&nbsp;</div>
+		    			<div class="row" style="width: 70%;float: left">
+			    			<div class="col-xs-12">
+			    				<div class="col-xs-12 col-sm-6 ">
+			    					<p>
+			    						<b>Multilingual:</b><br />
+			    						Speaks your language.<br />
+			    						Elementary has support over twenty different languages. Elementary kommt unterstuzt uber 20 varchiedene Sparchen. Elementary vien support plus de vingt lanuage difference. Elementary vient supporte plus de vingt language difference. And that was only four of them. 
+			    					</p>
+			    				</div>
+			    				<div class="col-xs-12 col-sm-6 "><img class="img-responsive" src="Image/Carousel.png"  alt="First slide"></div>
+					        </div>
+				        </div>
+				        <div style="width: 15%;float: left">&nbsp;</div>
+				        <div style="clear: both;">&nbsp;</div>
 				    </div>
 			        <div class="item">
-			            <img class="centerpos img-responsive" src="Image/Carousel2.png"  alt="Second slide">
+			            <div style="width: 15%;float: left">&nbsp;</div>
+		    			<div class="row" style="width: 70%;float: left">
+			    			<div class="col-xs-12">
+			    				<div class="col-xs-12 col-sm-6 ">
+		    						<p>
+			    						<b>Multilingual:</b><br />
+			    						Speaks your language.<br />
+			    						Elementary has support over twenty different languages. Elementary kommt unterstuzt uber 20 varchiedene Sparchen. Elementary vien support plus de vingt lanuage difference. Elementary vient supporte plus de vingt language difference. And that was only four of them. 
+			    					</p> 
+			    				</div>
+			    				<div class="col-xs-12 col-sm-6 "><img class="img-responsive" src="Image/Carousel.png"  alt="First slide"></div>
+					        </div>
+				        </div>
+				        <div style="width: 15%;float: left">&nbsp;</div>
+				        <div style="clear: both;">&nbsp;</div>
 				    </div>
 		    	</div>
-		    	  <a class="left carousel-control remove-car-gradient" href="#myCarousel" data-slide="prev"><img class="centerpos middlepos" src="Image/cleft.png" /></a>
-    			  <a class="right carousel-control remove-car-gradient" href="#myCarousel" data-slide="next"><img class="centerpos middlepos" src="Image/cright.png" /></a>
+		    	  <a class="left carousel-control remove-car-gradient" href="#myCarousel" data-slide="prev"><img class="centerpos middlepos-absolute" src="Image/cleft.png" /></a>
+    			  <a class="right carousel-control remove-car-gradient" href="#myCarousel" data-slide="next"><img class="centerpos middlepos-absolute" src="Image/cright.png" /></a>
     	    </div>
-		    <div>
-		       	<img class="img-responsive" src="Image/lowBanner.png" width="100%"/>	
+    	    <br />
+    	    <br />
+    	    <div class="relativepos">
+		   		<div class = "row middle-layer visible-desktop" >
+		     		<div class = "col-xs-12 col-sm-4 col-md-4">
+		     			<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 right-side-shadow-box">
+							&nbsp;
+						</div>
+					</div>
+		     		<div class = "col-xs-12 col-sm-4 col-md-4">
+						<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 both-side-shadow-box">
+							&nbsp;
+						</div>
+					</div>
+		     		<div class = "col-xs-12 col-sm-4 col-md-4">
+		     			<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 left-side-shadow-box">
+							&nbsp;
+						</div>
+					</div>
+			    </div>	
+		    	<div id="shadow-outset-line" class="col-xs-12 col-sm-12 col-md-12 bottom-layer absolutepos visible-desktop" style="top:80px;" > 
+			     	 &nbsp;
+		     	</div>
+	     	    <div class = "row top-layer bottom-icon-container" >
+	 		 	 	<div class = "col-xs-12 col-sm-4 col-md-4 " >
+		     			<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 top-layer bottom-icon-box">
+							<img class="centerpos img-responsive" src="Image/DownloadLogo.png"/>
+							<div>The first step of the path of operating system enlightment.</div>
+						</div>
+					</div>
+		     		<div class = "col-xs-12 col-sm-4 col-md-4" >
+						<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 bottom-icon-box">
+							<img class="centerpos img-responsive" src="Image/burnLogo.png"/>
+							<div>Learn how to burn your shiny downloaded onto media device.</div>
+						</div>
+					</div>
+		     		<div class = "col-xs-12 col-sm-4 col-md-4" >
+		     			<div class="col-xs-12 com-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 bottom-icon-box">
+							<img class="centerpos img-responsive" src="Image/installLogo.png"/>
+							<div>Learn some tips and tricks to keep your installation as smooth as possible.</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+	     	<div>
+		       	<!-- <img class="img-responsive" src="Image/lowBanner.png" width="100%"/>	 -->
 		       	<div align="center"><h1>So what are you waiting for?</h1></div>
 		       	<div align="center"><h3>You can be up and running with elementary twenty minutes ago</h3></div>
 		    </div>  
