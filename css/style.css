@@ -209,6 +209,33 @@ img.centerpos{
 		visibility:visible;
 	}
 }
+@media (min-width: 768px){
+	.visible-mobile{
+		display:none;
+	}
+}
+
+@media (max-width: 767px){
+	.visible-mobile{
+		visibility:visible;
+	}
+	
+}
+
+@media (min-width: 768px){
+	.mobile-vertical-margin{
+		/*margin-top:1em;*/
+	}
+}
+
+@media (max-width: 767px){
+	.mobile-vertical-margin{
+		visibility:visible;
+		margin-top:1em;
+	}
+	
+}
+
 
 @media (min-width: 768px) {
 	.bottom-icon-container{
