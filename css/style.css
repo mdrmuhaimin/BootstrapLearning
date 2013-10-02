@@ -4,8 +4,10 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 
-h1 { font-family: 'Alegreya', serif; font-weight: 400; }
-h3 { font-family: 'Alegreya', serif; }
+h1,h2,h3,h4 { 
+   font-family: 'Source Sans Pro', sans-serif;
+   /*font-family: 'Alegreya', serif; */
+}
 
 img.centerpos{
 	margin: 0px auto;
