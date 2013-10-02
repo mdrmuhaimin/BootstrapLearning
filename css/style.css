@@ -15,13 +15,26 @@ img.centerpos{
 	margin: 0px auto;
 }
 
-.middlepos-absolute{
-  position: absolute;
-  width:33%;
-  height:auto;
-  top: 40%;
-  left: 33%;
-  display: inline-block;
+@media (min-width: 768px) {
+	.middlepos-absolute{
+	  position: absolute;
+	  width:33%;
+	  height:auto;
+	  top: 40%;
+	  left: 33%;
+	  display: inline-block;
+	}
+}
+
+@media (max-width: 767px) {
+	.middlepos-absolute{
+	  position: absolute;
+	  width:50%;
+	  height:auto;
+	  top: 40%;
+	  left: 25%;
+	  display: inline-block;
+	}
 }
 
 .vertical-middlepos-absolute{
@@ -202,6 +215,9 @@ img.centerpos{
 		-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 		box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+		padding-top:2.5em;
+		padding-bottom:2.5em;
+	
 	}
 }
 @media (max-width: 767px){
