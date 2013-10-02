@@ -168,7 +168,7 @@ img.centerpos{
 #carousel-heading{
 	width:8em;
 	text-align:center;
-	margin:0px auto;
+	margin:1em auto 2em;
 }
 .tc-middle-align{
 	display:table-cell;	
@@ -189,6 +189,19 @@ img.centerpos{
 .bottom-layer{
 	z-index: -1;
 	/*height: 25px;*/
+}
+
+.padding-line-top{
+	.padding-top: 2em;
+}
+.padding-line-bottom{
+	.padding-bottom: 2em;
+}
+.margin-line-top{
+	.margin-top: 2em !important;
+}
+.margin-line-bottom{
+	.margin-bottom: 2em !important;
 }
 @media (min-width: 768px) {
 	.bottom-icon-box{
