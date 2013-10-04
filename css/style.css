@@ -15,6 +15,14 @@ img.centerpos{
 	margin: 0px auto;
 }
 
+.relativepos{
+	position:relative;
+}
+
+.absolutepos{
+	position: absolute;
+}
+
 @media (min-width: 768px) {
 	.middlepos-absolute{
 	  position: absolute;
@@ -48,15 +56,7 @@ img.centerpos{
 }
 
 
-.relativepos{
-	position:relative;
-}
-
-.absolutepos{
-	position: absolute;
-}
-
-.topNavbar{
+.top-navbar{
 	border-color: transparent;
 }
 
@@ -95,10 +95,10 @@ img.centerpos{
 	border-color: #7a951f;
   	text-shadow: 1px 1px 1px black;
 }
-.buttonImage{
+.button-image{
 	opacity:0.8;
 }
-.buttonImage:hover, .buttonImage:focus, .buttonImage:active{
+.button-image:hover, .buttonImage:focus, .buttonImage:active{
 	opacity:1.0;
 }
 .remove-car-gradient{
@@ -156,9 +156,6 @@ img.centerpos{
 }
 
 .line-shadow{
-	/*-webkit-box-shadow: 0px 2px 1px 1px rgba(206, 208, 211,0.75);
-	-moz-box-shadow   : 0px 2px 4px 1px rgba(206, 208, 211,0.75);
-	box-shadow        : 0px 2px 4px 1px rgba(206, 208, 211,0.75);*/
 	background: -webkit-linear-gradient(bottom, rgb(248, 249, 251) 70%, rgb(187, 188, 189) 100%);
 	background: -o-linear-gradient(bottom, rgb(248, 249, 251) 70%,  rgb(187, 188, 189) 100%);
 	background: -ms-linear-gradient(bottom, rgb(248, 249, 251) 70%,  rgb(187, 188, 189) 100%);
@@ -180,15 +177,12 @@ img.centerpos{
 
 .top-layer{
 	z-index: 1;
-	/*height: 25px;*/
 }
 .middle-layer{
 	z-index: 0;
-	/*height: 25px;*/
 }
 .bottom-layer{
 	z-index: -1;
-	/*height: 25px;*/
 }
 
 .padding-line-top{
@@ -259,7 +253,6 @@ img.centerpos{
 
 @media (min-width: 768px){
 	.mobile-vertical-margin{
-		/*margin-top:1em;*/
 	}
 }
 
